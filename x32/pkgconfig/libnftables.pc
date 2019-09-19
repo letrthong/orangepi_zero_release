@@ -1,0 +1,15 @@
+# libnftables pkg-config file
+
+prefix=/home/thongle/project/connectivity_interface/linux/usr
+exec_prefix=${prefix}
+libdir=/home/thongle/project/connectivity_interface/linux/usr/lib/raspberry/x32
+includedir=/home/thongle/project/connectivity_interface/linux/usr/include
+
+Name: libnftables
+Description: Netfilter nf_tables user library
+URL: http://netfilter.org/projects/nftables/
+Version: 0.9.0
+Requires:
+Conflicts:
+Libs: -L${libdir} -lnftables
+Cflags: -I${includedir}

@@ -1,0 +1,15 @@
+# libnftnl pkg-config file
+
+prefix=/home/thongle/project/connectivity_interface/linux/usr
+exec_prefix=${prefix}
+libdir=/home/thongle/project/connectivity_interface/linux/usr/lib/raspberry/x32
+includedir=/home/thongle/project/connectivity_interface/linux/usr/include
+
+Name: libnftnl
+Description: Netfilter nf_tables infrastructure library
+URL: http://netfilter.org/projects/libnftnl/
+Version: 1.1.2
+Requires:
+Conflicts:
+Libs: -L${libdir} -lnftnl
+Cflags: -I${includedir}

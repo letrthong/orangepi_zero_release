@@ -1,0 +1,10 @@
+
+prefix=/home/thongle/project/connectivity_interface/linux/usr
+exec_prefix=${prefix}
+libdir=/home/thongle/project/connectivity_interface/linux/usr/lib/raspberry/x32
+includedir=/home/thongle/project/connectivity_interface/linux/usr/include
+
+Name:		libiptc
+Description:	iptables v4/v6 ruleset ADT and kernel interface
+Version:	1.8.2
+Requires:	libip4tc libip6tc

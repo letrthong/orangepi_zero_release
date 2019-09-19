@@ -1,0 +1,11 @@
+prefix=/home/thongle/connectivity/linux/usr
+exec_prefix=${prefix}
+libdir=/home/thongle/connectivity/linux/usr/lib/release/raspberry/x32
+includedir=/home/thongle/connectivity/linux/usr/include
+
+Name: Xerces-C++
+Description: Validating XML parser library for C++
+Version: 3.1.4
+Libs: -L${libdir} -lxerces-c
+Libs.private: -lcurl
+Cflags: -I${includedir}

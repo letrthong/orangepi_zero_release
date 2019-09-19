@@ -1,0 +1,11 @@
+prefix=/home/thongle/project/connectivity_interface/linux/usr
+exec_prefix=${prefix}
+libdir=/home/thongle/project/connectivity_interface/linux/usr/lib/raspberry/x32
+includedir=/home/thongle/project/connectivity_interface/linux/usr/include
+
+Name: CppUtest
+URL: https://github.com/cpputest/cpputest
+Description: Easy to use unit test framework for C/C++
+Version: 3.8
+Cflags: -I${includedir}
+Libs: -L${libdir} -lstdc++ -lCppUTest -lCppUTestExt

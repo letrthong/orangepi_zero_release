@@ -1,0 +1,8 @@
+prefix=/home/thongle/project/connectivity_interface/linux/usr
+exec_prefix=${prefix}
+libdir=/home/thongle/project/connectivity_interface/linux/usr/lib/raspberry/x32
+
+Name: libfl
+Description: Flex (the fast lexical analyzer) support library
+Version: 2.6.4
+Libs: -L${libdir} -lfl

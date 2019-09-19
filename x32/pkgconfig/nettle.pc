@@ -1,0 +1,11 @@
+prefix=/home/thongle/project/connectivity_interface/linux/usr
+exec_prefix=${prefix}
+libdir=/home/thongle/project/connectivity_interface/linux/usr/lib/raspberry/x32
+includedir=/home/thongle/project/connectivity_interface/linux/usr/include
+
+Name: Nettle
+Description: Nettle low-level cryptographic library (symmetric algorithms)
+URL: http://www.lysator.liu.se/~nisse/nettle
+Version: 3.4
+Libs: -L${libdir} -lnettle
+Cflags: -I${includedir}

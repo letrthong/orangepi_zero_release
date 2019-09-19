@@ -1,0 +1,10 @@
+prefix=/home/z/Work/linux/usr
+exec_prefix=${prefix}
+libdir=/home/z/Work/linux/usr/lib/release/raspberry/x32
+includedir=/home/z/Work/linux/usr/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.4.0
+Libs: -L${libdir} -lglog
+Cflags: -I${includedir}
