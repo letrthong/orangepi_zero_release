@@ -96,8 +96,8 @@ typedef unsigned int guintptr;
 #endif
 
 #define GLIB_MAJOR_VERSION 2
-#define GLIB_MINOR_VERSION 53
-#define GLIB_MICRO_VERSION 3
+#define GLIB_MINOR_VERSION 56
+#define GLIB_MICRO_VERSION 4
 
 #define G_OS_UNIX
 
@@ -120,7 +120,7 @@ typedef unsigned int guintptr;
 #endif
 
 #define G_HAVE_GNUC_VARARGS 1
-#define G_HAVE_GROWING_STACK 0
+#define G_HAVE_GROWING_STACK 1
 
 #define G_HAVE_GNUC_VISIBILITY 1
 #if defined(__SUNPRO_C) && (__SUNPRO_C >= 0x590)
@@ -183,6 +183,11 @@ typedef int GPid;
 #define GLIB_SYSDEF_MSG_OOB 1
 #define GLIB_SYSDEF_MSG_PEEK 2
 #define GLIB_SYSDEF_MSG_DONTROUTE 4
+
+#define G_DIR_SEPARATOR '/'
+#define G_DIR_SEPARATOR_S "/"
+#define G_SEARCHPATH_SEPARATOR ':'
+#define G_SEARCHPATH_SEPARATOR_S ":"
 
 G_END_DECLS
 

@@ -8,7 +8,7 @@
 dlname='libgthread-2.0.so.0'
 
 # Names of this library.
-library_names='libgthread-2.0.so.0.5303.0 libgthread-2.0.so.0 libgthread-2.0.so'
+library_names='libgthread-2.0.so.0.5600.4 libgthread-2.0.so.0 libgthread-2.0.so'
 
 # The name of the static archive.
 old_library=''
@@ -17,15 +17,15 @@ old_library=''
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/thonglt/projects/linux/usr/lib/raspberry/x32 /home/thonglt/projects/linux/usr/lib/raspberry/x32/libglib-2.0.la -lpthread -lrt'
+dependency_libs=' /home/thongle/connectivity/interface/linux/usr/lib/release/orangepi-zero/x32/libglib-2.0.la -lpthread'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
 
 # Version information for libgthread-2.0.
-current=5303
-age=5303
-revision=0
+current=5600
+age=5600
+revision=4
 
 # Is this an already installed library?
 installed=yes
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/thonglt/projects/linux/usr/lib/raspberry/x32'
+libdir='/home/thongle/connectivity/interface/linux/usr/lib/release/orangepi-zero/x32'
